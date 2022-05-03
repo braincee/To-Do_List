@@ -14,7 +14,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone Repository
    ```
-   git clone https://github.com/braincee/To-do-List-Practice.git
+   git clone https://github.com/braincee/To-Do_List.git
    ```
 
 ### Install linters(webhint, stylelint, eslint)
@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo 🔗
 
-Check the live demo [here](https://braincee.github.io/To-do-List-Practice)👈
+Check the live demo [here]()👈
 
 
 ## Authors
@@ -50,7 +50,7 @@ Check the live demo [here](https://braincee.github.io/To-do-List-Practice)👈
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/braincee/To-do-List-Practice/issues).
+Feel free to check the [issues page](https://github.com/braincee/To-Do_List/issues).
 
 ## Show your support.
 
