@@ -14,17 +14,29 @@ describe('Testing Add Item', () => {
 
     expect(todo.length).not.toBeNull();
   });
+  it('Adding new task', () => {
+    const todo = new ToDos();
+    todo.addTodo('Practice', false, 1);
+
+    expect(todo.todos[1].details).toEqual('Practice');
+  });
   it('Adding todo to return details property', () => {
     const todo = new ToDos();
-    todo.addTodo('Sleep', true, 1);
+    todo.addTodo('Sleep', false, 2);
 
-    expect(todo.todos[1].details).toBe('Sleep');
+    expect(todo.todos[2].details).toBe('Sleep');
   });
   it('Adding todo to return boolean', () => {
     const todo = new ToDos();
-    todo.addTodo('Cook', true, 2);
+    todo.addTodo('Cook', true, 3);
 
-    expect(todo.todos[2].completed).toEqual(true);
+    expect(todo.todos[3].completed).toEqual(true);
+  });
+  it('Adding todo to return index', () => {
+    const todo = new ToDos();
+    todo.addTodo('Singing', false, 4);
+
+    expect(todo.todos[4].index - 1).toEqual(4);
   });
 });
 
@@ -32,24 +44,24 @@ describe('Testing Add Item', () => {
 describe('Testing Remove Item', () => {
   it('Removing todo from array to be null', () => {
     const todo = new ToDos();
-    todo.addTodo('Drive', false, 3);
+    todo.addTodo('Drive', false, 5);
     todo.deleteTodo(0);
 
     expect(todo.length).toBeUndefined();
   });
-  it('Remove task, from a multiple added tasks, return description property', () => {
+  it('Removing todo from a multiple added todos which returns details', () => {
     const todo = new ToDos();
     todo.addTodo('Read', false, 4);
-    todo.deleteTodo(3);
+    todo.deleteTodo(5);
 
-    expect(todo.todos[3].details).toEqual('Read');
+    expect(todo.todos[5].details).toEqual('Read');
   });
-  it('Remove task, from a multiple added tasks, return length', () => {
+  it('Removing  todo from a multiple added todos which return length', () => {
     const todo = new ToDos();
     todo.addTodo('Pray', false, 4);
     todo.addTodo('Lunch', false, 5);
     todo.deleteTodo(3);
 
-    expect(todo.todos).toHaveLength(5);
+    expect(todo.todos).toHaveLength(7);
   });
 });
