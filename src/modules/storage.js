@@ -3,7 +3,7 @@ export default class Storage {
       localStorage.setItem('myList', JSON.stringify(todo));
     };
 
-    static load = () => (localStorage.getItem('myList') != null
-      ? JSON.parse(localStorage.getItem('myList'))
-      : []);
+  static load = () => (localStorage.getItem('myList') != null
+    ? JSON.parse(localStorage.getItem('myList'))
+    : []);
 }
