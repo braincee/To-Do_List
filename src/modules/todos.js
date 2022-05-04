@@ -1,5 +1,5 @@
 /* eslint-disable max-classes-per-file */
-import Task from './todo.js';
+import Todo from './todo.js';
 import Storage from './storage.js';
 import BooleanTodo from './boolean.js';
 
@@ -13,7 +13,7 @@ export default class ToDos {
   getTodo = (index) => this.todos[index - 1];
 
   addTodo = (details, completed = false) => {
-    const newTask = new Task(this.todos.length + 1, details, completed);
+    const newTask = new Todo(this.todos.length + 1, details, completed);
     this.todos.push(newTask);
     Storage.save(this.todos);
     return newTask;
