@@ -47,29 +47,29 @@ describe('Testing Remove Item', () => {
   it('Removing todo from array to be null', () => {
     const todo = new ToDos();
     todo.addTodo('Drive', false, 5);
-    todo.deleteTodo(0);
+    todo.deleteTodo(5);
 
-    expect(todo.length).toBeUndefined();
+    expect(todo[5]).toBeUndefined();
   });
   it('Removing todo from a multiple added todos which returns details', () => {
     const todo = new ToDos();
     todo.addTodo('Read', false, 4);
     todo.deleteTodo(5);
 
-    expect(todo.todos[5].details).toEqual('Read');
+    expect(todo.todos[4].details).toEqual('Read');
   });
   it('Removing  todo from a multiple added todos which return length', () => {
     const todo = new ToDos();
-    todo.addTodo('Pray', false, 4);
-    todo.addTodo('Lunch', false, 5);
+    todo.addTodo('Pray', false, 5);
+    todo.addTodo('Lunch', false, 6);
     todo.deleteTodo(3);
 
-    expect(todo.todos).toHaveLength(7);
+    expect(todo.todos).toHaveLength(6);
   });
   it('remove', () => {
     const todo = new ToDos();
-    todo.deleteTodo(5);
-    expect(todo.todos[5].details).toEqual('Lunch');
+    todo.deleteTodo(4);
+    expect(todo.todos[4].details).toEqual('Lunch');
   });
 });
 // testing for editing todo
@@ -77,10 +77,10 @@ describe('Testing Remove Item', () => {
 describe('Test for Edit Todo', () => {
   it('Editing todo to return new details', () => {
     const todo = new ToDos();
-    todo.addTodo('Walking', false, 6);
-    todo.todos[6].details = 'Brushing';
+    todo.addTodo('Walking', false, 5);
+    todo.todos[5].details = 'Brushing';
 
-    expect(todo.todos[6].details).toMatch('Brushing');
+    expect(todo.todos[5].details).toMatch('Brushing');
   });
   it('Editing todo to return new details', () => {
     const todo = new ToDos();
@@ -102,10 +102,10 @@ describe('Test for Edit Todo', () => {
 describe('Test for Upadate Todo Booleans', () => {
   it('Updating todo to return boolean true', () => {
     const todo = new ToDos();
-    todo.addTodo('Watching', true, 7);
-    todo.todos[7].completed = true;
+    todo.addTodo('Watching', true, 6);
+    todo.todos[6].completed = true;
 
-    expect(todo.todos[7].completed).toBe(true);
+    expect(todo.todos[6].completed).toBe(true);
   });
   it('Updating todo to return boolean false', () => {
     const todo = new ToDos();
@@ -122,7 +122,7 @@ describe('Test for Clear All Completed Todo', () => {
     todo.addTodo('Jogging', true, 8);
     todo.clearCompleted();
 
-    expect(todo.todos.length).toBe(6);
+    expect(todo.todos.length).toBe(5);
   });
   it('Test for remove todo with boolean true', () => {
     const todo = new ToDos();
@@ -132,7 +132,7 @@ describe('Test for Clear All Completed Todo', () => {
     todo.addTodo('Travelling', false, 11);
     todo.clearCompleted();
 
-    expect(todo.todos.length).toBe(6);
+    expect(todo.todos.length).toBe(5);
   });
   it('Test for remove todo with boolean true', () => {
     const todo = new ToDos();
@@ -142,6 +142,6 @@ describe('Test for Clear All Completed Todo', () => {
     todo.deleteTodo(12);
     todo.clearCompleted();
 
-    expect(todo.todos.length).toBe(6);
+    expect(todo.todos.length).toBe(5);
   });
 });

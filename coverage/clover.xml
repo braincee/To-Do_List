@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651758569991" clover="3.2.0">
-  <project timestamp="1651758569992" name="All files">
+<coverage generated="1651759816694" clover="3.2.0">
+  <project timestamp="1651759816694" name="All files">
     <metrics statements="42" coveredstatements="34" conditionals="7" coveredconditionals="6" methods="16" coveredmethods="10" elements="65" coveredelements="50" complexity="0" loc="42" ncloc="42" packages="1" files="4" classes="4"/>
     <file name="boolean.js" path="C:\Users\Stephen\Desktop\New folder\To-Do_List\src\modules\boolean.js">
       <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -33,11 +33,11 @@
       <line num="23" count="7" type="stmt"/>
       <line num="24" count="7" type="stmt"/>
       <line num="26" count="7" type="stmt"/>
-      <line num="27" count="51" type="cond" truecount="2" falsecount="0"/>
-      <line num="28" count="28" type="stmt"/>
-      <line num="29" count="23" type="cond" truecount="2" falsecount="0"/>
-      <line num="30" count="19" type="stmt"/>
-      <line num="31" count="19" type="stmt"/>
+      <line num="27" count="45" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="29" type="stmt"/>
+      <line num="29" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="11" type="stmt"/>
+      <line num="31" count="11" type="stmt"/>
       <line num="34" count="7" type="stmt"/>
       <line num="35" count="7" type="stmt"/>
       <line num="38" count="17" type="stmt"/>
@@ -50,9 +50,9 @@
       <line num="48" count="0" type="stmt"/>
       <line num="49" count="0" type="stmt"/>
       <line num="52" count="17" type="stmt"/>
-      <line num="53" count="25" type="stmt"/>
+      <line num="53" count="22" type="stmt"/>
       <line num="54" count="3" type="stmt"/>
-      <line num="55" count="18" type="stmt"/>
+      <line num="55" count="15" type="stmt"/>
       <line num="57" count="3" type="stmt"/>
       <line num="58" count="3" type="stmt"/>
     </file>
