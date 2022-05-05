@@ -31,18 +31,31 @@ To get a local copy up and running follow these simple example steps.
    ```
    npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
    ```
+
+----
+
 ## Screenshots of Todo List
-![](./to-do-1.png)
-![](./to-do-2.png)
+
+![](./to-2.png)  ![](./to-1.png)
+
+----
+
 ## Live Demo 🔗
 
 Check the live demo [here](https://braincee.github.io/To-Do_List/)👈
 
+----
+
 ### Screenshot of Testing with Jest
+
 ![](./Testing.png)
 
 ### Screenshot of Testing with Jest Second Part
+
 ![](./Testing-2.png)
+
+
+----
 
 ## Author
 
@@ -51,6 +64,8 @@ Check the live demo [here](https://braincee.github.io/To-Do_List/)👈
 - GitHub: [@braincee](https://github.com/braincee)
 - Twitter: [@annor0543](https://twitter.com/annor0543)
 - LinkedIn: [Stephen Annor](https://www.linkedin.com/in/kwesi-appiah-1387801a1/)
+
+----
 
 
 ## 🤝 Contributing
