@@ -7,6 +7,7 @@ import ToDos from './todos.js';
 document.body.innerHTML = '<div class="display"></div>';
 
 // Testing Add Item Todo
+
 describe('Testing Add Item', () => {
   test('Adding todo to array not to be null', () => {
     const todo = new ToDos();
@@ -41,6 +42,7 @@ describe('Testing Add Item', () => {
 });
 
 // Testing Remove Item Todo
+
 describe('Testing Remove Item', () => {
   it('Removing todo from array to be null', () => {
     const todo = new ToDos();
@@ -63,5 +65,10 @@ describe('Testing Remove Item', () => {
     todo.deleteTodo(3);
 
     expect(todo.todos).toHaveLength(7);
+  });
+  it('remove', () => {
+    const todo = new ToDos();
+    todo.deleteTodo(5);
+    expect(todo.todos[5].details).toEqual('Lunch');
   });
 });
