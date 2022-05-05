@@ -72,3 +72,76 @@ describe('Testing Remove Item', () => {
     expect(todo.todos[5].details).toEqual('Lunch');
   });
 });
+// testing for editing todo
+
+describe('Test for Edit Todo', () => {
+  it('Editing todo to return new details', () => {
+    const todo = new ToDos();
+    todo.addTodo('Walking', false, 6);
+    todo.todos[6].details = 'Brushing';
+
+    expect(todo.todos[6].details).toMatch('Brushing');
+  });
+  it('Editing todo to return new details', () => {
+    const todo = new ToDos();
+    todo.todos[0].details = 'Praying';
+
+    expect(todo.todos[0].details).toMatch('Praying');
+  });
+
+  it('Editing todo to return new index property', () => {
+    const todo = new ToDos();
+    todo.todos[1].index = 3;
+
+    expect(todo.todos[1].index).toEqual(3);
+  });
+});
+
+// Testing for updating todo booleans
+
+describe('Test for Upadate Todo Booleans', () => {
+  it('Updating todo to return boolean true', () => {
+    const todo = new ToDos();
+    todo.addTodo('Watching', true, 7);
+    todo.todos[7].completed = true;
+
+    expect(todo.todos[7].completed).toBe(true);
+  });
+  it('Updating todo to return boolean false', () => {
+    const todo = new ToDos();
+    todo.todos[5].completed = false;
+
+    expect(todo.todos[5].completed).toEqual(false);
+  });
+});
+
+// Testing for clearing all completed todo.
+describe('Test for Clear All Completed Todo', () => {
+  it('Test for remove todo with boolean true', () => {
+    const todo = new ToDos();
+    todo.addTodo('Jogging', true, 8);
+    todo.clearCompleted();
+
+    expect(todo.todos.length).toBe(6);
+  });
+  it('Test for remove todo with boolean true', () => {
+    const todo = new ToDos();
+    todo.addTodo('Breakfast', true, 9);
+    todo.addTodo('Laundry', true, 10);
+    todo.deleteTodo(4);
+    todo.addTodo('Travelling', false, 11);
+    todo.clearCompleted();
+
+    expect(todo.todos.length).toBe(6);
+  });
+  it('Test for remove todo with boolean true', () => {
+    const todo = new ToDos();
+    todo.addTodo('Rafting', true, 12);
+    todo.deleteTodo(10);
+    todo.addTodo('Cycling', true, 13);
+    todo.deleteTodo(12);
+    todo.clearCompleted();
+
+    expect(todo.todos.length).toBe(6);
+  });
+});

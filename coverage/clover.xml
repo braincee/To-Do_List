@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651750082087" clover="3.2.0">
-  <project timestamp="1651750082087" name="All files">
+<coverage generated="1651758569991" clover="3.2.0">
+  <project timestamp="1651758569992" name="All files">
     <metrics statements="42" coveredstatements="34" conditionals="7" coveredconditionals="6" methods="16" coveredmethods="10" elements="65" coveredelements="50" complexity="0" loc="42" ncloc="42" packages="1" files="4" classes="4"/>
     <file name="boolean.js" path="C:\Users\Stephen\Desktop\New folder\To-Do_List\src\modules\boolean.js">
       <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -10,46 +10,46 @@
     <file name="storage.js" path="C:\Users\Stephen\Desktop\New folder\To-Do_List\src\modules\storage.js">
       <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="3" count="30" type="stmt"/>
-      <line num="6" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="27" type="stmt"/>
+      <line num="6" count="17" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="todo.js" path="C:\Users\Stephen\Desktop\New folder\To-Do_List\src\modules\todo.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="19" type="stmt"/>
-      <line num="4" count="19" type="stmt"/>
-      <line num="5" count="19" type="stmt"/>
+      <line num="3" count="17" type="stmt"/>
+      <line num="4" count="17" type="stmt"/>
+      <line num="5" count="17" type="stmt"/>
     </file>
     <file name="todos.js" path="C:\Users\Stephen\Desktop\New folder\To-Do_List\src\modules\todos.js">
       <metrics statements="34" coveredstatements="27" conditionals="5" coveredconditionals="4" methods="12" coveredmethods="7"/>
-      <line num="8" count="18" type="stmt"/>
-      <line num="11" count="18" type="stmt"/>
-      <line num="13" count="18" type="stmt"/>
-      <line num="15" count="18" type="cond" truecount="0" falsecount="1"/>
-      <line num="16" count="19" type="stmt"/>
-      <line num="17" count="19" type="stmt"/>
-      <line num="18" count="19" type="stmt"/>
-      <line num="19" count="19" type="stmt"/>
-      <line num="22" count="18" type="stmt"/>
-      <line num="23" count="8" type="stmt"/>
-      <line num="24" count="8" type="stmt"/>
-      <line num="26" count="8" type="stmt"/>
-      <line num="27" count="59" type="cond" truecount="2" falsecount="0"/>
-      <line num="28" count="30" type="stmt"/>
-      <line num="29" count="29" type="cond" truecount="2" falsecount="0"/>
-      <line num="30" count="24" type="stmt"/>
-      <line num="31" count="24" type="stmt"/>
-      <line num="34" count="8" type="stmt"/>
-      <line num="35" count="8" type="stmt"/>
-      <line num="38" count="18" type="stmt"/>
+      <line num="8" count="17" type="stmt"/>
+      <line num="11" count="17" type="stmt"/>
+      <line num="13" count="17" type="stmt"/>
+      <line num="15" count="17" type="cond" truecount="0" falsecount="1"/>
+      <line num="16" count="17" type="stmt"/>
+      <line num="17" count="17" type="stmt"/>
+      <line num="18" count="17" type="stmt"/>
+      <line num="19" count="17" type="stmt"/>
+      <line num="22" count="17" type="stmt"/>
+      <line num="23" count="7" type="stmt"/>
+      <line num="24" count="7" type="stmt"/>
+      <line num="26" count="7" type="stmt"/>
+      <line num="27" count="51" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="28" type="stmt"/>
+      <line num="29" count="23" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="19" type="stmt"/>
+      <line num="31" count="19" type="stmt"/>
+      <line num="34" count="7" type="stmt"/>
+      <line num="35" count="7" type="stmt"/>
+      <line num="38" count="17" type="stmt"/>
       <line num="39" count="0" type="stmt"/>
       <line num="40" count="0" type="stmt"/>
       <line num="41" count="0" type="stmt"/>
       <line num="43" count="0" type="stmt"/>
-      <line num="46" count="18" type="stmt"/>
+      <line num="46" count="17" type="stmt"/>
       <line num="47" count="0" type="stmt"/>
       <line num="48" count="0" type="stmt"/>
       <line num="49" count="0" type="stmt"/>
-      <line num="52" count="18" type="stmt"/>
+      <line num="52" count="17" type="stmt"/>
       <line num="53" count="25" type="stmt"/>
       <line num="54" count="3" type="stmt"/>
       <line num="55" count="18" type="stmt"/>
