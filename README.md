@@ -46,11 +46,8 @@ Check the live demo [here](https://braincee.github.io/To-Do_List/)👈
 
 ----
 
-### Screenshot of Testing with Jest
 
-![](./Testing.png)
-
-### Screenshot of Testing with Jest Second Part
+### Screenshot of Testing with Jest 
 
 ![](./Testing-2.png)
 
