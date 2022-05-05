@@ -36,6 +36,11 @@ To get a local copy up and running follow these simple example steps.
 
 Check the live demo [here]()👈
 
+### Screenshot of Testing with Jest
+![](./Testing.png)
+
+### Screenshot of Testing with Jest Second Part
+![](./Testing-2.png)
 
 ## Author
 
