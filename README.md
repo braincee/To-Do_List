@@ -33,19 +33,9 @@ To get a local copy up and running follow these simple example steps.
    ```
 
 
-
-
-
-
-
 ## Screenshots of Todo List
 
 ![](./to-2.png)  ![](./to-1.png)
-
-
-
-
-
 
 ## Live Demo 🔗
 
@@ -53,21 +43,9 @@ To get a local copy up and running follow these simple example steps.
 Check the live demo [here](https://braincee.github.io/To-Do_List/)👈
 
 
-
-
-
-
-
 ### Screenshot of Testing with Jest 
 
 ![](./Testing-2.png)
-
-
-
-
-
-
-
 
 ## Author
 
