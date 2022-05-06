@@ -45,7 +45,7 @@ Check the live demo [here](https://braincee.github.io/To-Do_List/)👈
 
 ### Screenshot of Testing with Jest 
 
-![](./desktop.png)
+![](./desktop%20(1).png)
 
 ## Author
 
